@@ -16,7 +16,3 @@ or
 ```
 
 
-
-# Questions and Comments: jothiemimah@gmail.com
-
-
