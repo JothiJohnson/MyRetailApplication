@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jothi.example.test.ProductControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.197 sec - in com.jothi.example.test.ProductControllerTest

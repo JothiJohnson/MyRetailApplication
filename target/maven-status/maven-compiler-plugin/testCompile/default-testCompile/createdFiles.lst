@@ -1,0 +1,5 @@
+com\jothi\example\test\service\ProductServiceTest.class
+com\jothi\example\test\ProductControllerTest.class
+com\jothi\example\test\mapper\DTOMapperTest.class
+com\jothi\example\test\mapper\VOMapperTest.class
+com\jothi\example\test\util\DataUtil.class

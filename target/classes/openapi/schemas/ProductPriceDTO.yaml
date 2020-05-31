@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: ProductPriceDTO
+  version1.0
+schemas:
+  ProductPriceDTO:
+    properties:
+       Product:
+          ref:'#/components/schemas/ProductDTO'
+       Product:
+          ref:'#/components/schemas/PriceDTO'

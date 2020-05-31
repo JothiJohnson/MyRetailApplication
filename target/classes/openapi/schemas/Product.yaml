@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: ProductPriceDTO
+  version1.0
+schemas:
+  ProductDTO:
+    properties:
+       ProductId:
+          type: integer
+       ProductName:
+          type: string

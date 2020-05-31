@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: MyRetailApplication
+  version1.0
+paths:
+  /myretailapp/v1/products:
+     get:
+        summary: Retreive product info
+        description: Retrieves product info from external API and datastore
+        operationId: getProduct
+        parameters:
+        -   name: productId
+            in: paths
+            description: Id number of the product  
+            required: true
+            schema:
+                type: number
+        responses:
+            '200':
+               description: ProductPriceDTO
+               content:
+                  application/json:
+                     schema:
+                        items:
+                           $ref: '#/components/schemas/ProductPriceDTO.yaml'
+    /myretailapp/v1/products:
+       post:
+           description: Insert price into datastore
+           operationId: createProduct
+           requestBody:
+               description: ProductPriceDTO to add
+               required: true
+               content:
+                  application/json
+                     schema:
+                          $ref: '#/components/schemas/ProductPriceDTO.yaml'
+           response:
+               '201'
+               description: Price info stored
+        
